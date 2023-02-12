@@ -33,7 +33,7 @@ def format_date_joined(date):
 
 @app.route('/profile')
 def profile():
-    return render_template('profile.html',date=format_date_joined([2022,1,17]))
+    return render_template('profile.html',date=format_date_joined([2023,1,19]))
 
 
 ###
