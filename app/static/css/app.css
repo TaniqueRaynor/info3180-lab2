@@ -5,8 +5,8 @@ body {
 .grid-container1{
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: #D4AF37;
-  background-image: linear-gradient(#D4AF37,gray);
+  background-color: blue;
+  background-image: linear-gradient(#37d4cf,gray);
   padding: 10%;
   box-shadow: 5px 10px 18px #888888;
   border-radius: 12px;
@@ -46,7 +46,7 @@ body {
 }
 
 .follow-btn{
-    background-color:rgb(206, 149, 26);
+    background-color:rgb(20, 77, 33);
     border-radius: 12px;
     font-family:Arial, Helvetica, sans-serif;
     border: none;
@@ -58,6 +58,7 @@ body {
     font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
+    box-shadow: 5px 10px 18px #888888;
 }
 
 .info{
